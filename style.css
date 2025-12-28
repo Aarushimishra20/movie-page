@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+.search-box {
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+#movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.movie-card {
+  background: #1e293b;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 8px;
+}
